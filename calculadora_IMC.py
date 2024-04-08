@@ -35,7 +35,7 @@ def  comprobar_Imc(IMC): #tome el codigo del ejemplo para complementar la inform
         return "Sobrepeso"
     elif IMC >= 30.00 and IMC <= 34.99:
         return "obesidad leve"
-    elif IMC >= 35.00 and IMC <= 39.00:
+    elif IMC >= 35.00 and IMC <= 39.99:
         return"obesidad media"
     elif IMC >= 40.00:
         return "obesidad morbida"
