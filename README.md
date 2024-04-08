@@ -11,7 +11,7 @@ def comprueba_error_numerico(numero):
 este si bien me comprobaba el numero entero no los float
 de esta forma recorde que se pueden usar las excepciones para este tipo de casos y asi generar una funcion que compruebe los 3 campos
 
-llamando a la misma fincion las veces que sea necesario si el usuario ingresa datos erroneos
+llamando a la misma funcion las veces que sea necesario si el usuario ingresa datos erroneos
 
 para comprobar las cadenas de texto que esten vacias es algo similar 
 solo utilizanto la funcion len que esta nos da el tamaño de el str 
