@@ -9,7 +9,7 @@ def comprueba_error_numerico(numero):
            comprueba_error_numerico(numero) 
 
 este si bien me comprobaba el numero entero no los float
-de esta forma recorde que se pueden usar las exceociones para este tipo de casos y asi generar una funcion que compruebe los 3 campos
+de esta forma recorde que se pueden usar las excepciones para este tipo de casos y asi generar una funcion que compruebe los 3 campos
 
 llamando a la misma fincion las veces que sea necesario si el usuario ingresa datos erroneos
 
