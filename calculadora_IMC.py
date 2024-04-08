@@ -16,7 +16,7 @@ def comprueba_error(dato,format): #esta funcion ayuada a comprobar si los datos 
 
 def comprueba_vacio(dato):# comprobamos que las entradas no esten vacias
     while True:
-        if dato.strip():
+        if len ( datos ) > 0:
              return dato
         else:
              dato = input( "Error, no puede estar vacio \ningresa una dato correcto: "  )
