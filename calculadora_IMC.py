@@ -16,7 +16,7 @@ def comprueba_error(dato,format): #esta funcion ayuada a comprobar si los datos 
 
 def comprueba_vacio(dato):# comprobamos que las entradas no esten vacias
     while True:
-        if dato.strip():
+        if len(dato) > 0:
              return dato
         else:
              dato = input( "Error, no puede estar vacio \ningresa una dato correcto: "  )
@@ -35,7 +35,7 @@ def  comprobar_Imc(IMC): #tome el codigo del ejemplo para complementar la inform
         return "Sobrepeso"
     elif IMC >= 30.00 and IMC <= 34.99:
         return "obesidad leve"
-    elif IMC >= 35.00 and IMC <= 39.00:
+    elif IMC >= 35.00 and IMC <= 39.99:
         return"obesidad media"
     elif IMC >= 40.00:
         return "obesidad morbida"
